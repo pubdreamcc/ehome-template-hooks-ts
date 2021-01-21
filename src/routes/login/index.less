@@ -1,0 +1,47 @@
+.foo-menu {
+  position: relative;
+  z-index: 1000 !important;
+}
+
+.menu-active .top-nav-bar {
+  z-index: 80;
+}
+
+.top-nav-bar {
+  position: relative;
+  background-color: #008ae6;
+  color: #fff;
+
+  .am-navbar-title {
+    color: #fff !important;
+  }
+}
+.menu-mask {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.4;
+  z-index: 79;
+}
+
+.single-foo-menu {
+  position: absolute;
+  z-index: 90 !important;
+  width: 100%;
+}
+
+.single-menu-active .single-top-nav-bar {
+  z-index: 90;
+}
+
+.single-top-nav-bar {
+  position: relative;
+}
+.single-top-nav-bar {
+  .am-navbar-title {
+    color: #008ae6 !important;
+  }
+}
