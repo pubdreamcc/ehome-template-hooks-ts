@@ -1,5 +1,9 @@
 {
   "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "build": true
+  },
   "eslint.validate": [
     "javascript",
     "javascriptreact",
