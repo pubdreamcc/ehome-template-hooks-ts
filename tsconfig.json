@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "ESNext",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"jsx": "react",
+		"isolatedModules": true,
+		"strict": true,
+
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"baseUrl": "./",
+		"paths": {
+			"lang": ["src/lang/*"],
+			"components": ["src/components/*"],
+			"hooks": ["src/hooks/*"],
+			"images": ["src/images/*"]
+		},
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+
+		"noEmit": true
+	},
+	"exclude": ["node_modules"]
+}

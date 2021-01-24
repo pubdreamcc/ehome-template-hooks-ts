@@ -1,7 +1,8 @@
 ## TODO
 
 - [x] hooks 支持
-- [x] 规范支持，eslint 规则，prettier 规则，husky 代码提交校验
+- [x] 引入 typescript 类型校验
+- [x] 规范支持，eslint 规则，prettier 规则，stylelint 规则，husky 代码提交校验
 - [x] less module 支持
 - [x] 可选链语法，Null 判断运算符支持
 - [x] vw 支持
